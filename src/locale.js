@@ -1,48 +1,48 @@
-
+﻿
 
 export const hu = {
   app: {
     title: 'Logotools',
   },
   help: {
-    title: 'Logopediai segedeszkozok',
+    title: 'Logopédiai segédeszközök',
     footer: {
       version: 'v1.0.0',
-      legal: 'Az alkalmazas a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 2.5 Magyarország Licenc feltételeinek megfelelően felhasználható.',
+      legal: 'Az alkalmazás a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 2.5 Magyarország Licenc feltételeinek megfelelően felhasználható.',
     },
   },
   dates: {
-    title: 'Datumok',
+    title: 'Dátumok',
     format: 'YYYY MMMM DD',
     age: {
-      title: 'Hany eves?',
-      year: 'ev',
-      month: 'honap',
+      title: 'Hány éves?',
+      year: 'év',
+      month: 'hónap',
       day: 'nap',
     },
     birth: {
-      title: 'Mikor szuletett?',
-      year: 'eves',
-      month: 'honapos',
+      title: 'Mikor született?',
+      year: 'éves',
+      month: 'hónapos',
     },
     help: {
-      title: 'Datumok',
-      content: {__html: 'Kor es szuletesi ido szamolo kalkulator.<br /><br />A <b>HANY EVES?</b> modban kiszamolhato a <b>gyerek</b> szuletesi datuma alapjan a <b>pontos kora</b>. A szuletesi datum megadasa gyors es intuitiv. eloszor az evet valasztjuk ki, majd a honapot es a napot. Ha a keresett ev nem szerepel az elso oldalon, a fenti nyilakkal lapozni lehet az elozo es kovetkezo evekre. Hiba eseten visszalepesre is van lehetoseg. Ha kiszamoltunk egy datumot, a kalkulator egy gombnyomasra alaphelyzetbe is allithato.<br /><br />A <b>MIKOR SZULETETT?</b> modban a <b>gyerek szuletesi datuma</b> szamolhato ki a megadott korhoz kepest.'},
+      title: 'Dátumok',
+      content: {__html: 'Kor és születési idő számoló kalkulátor.<br /><br />A <b>HÁNY ÉVES?</b> módban kiszámolható a <b>gyerek</b> születési dátuma alapján a <b>pontos kora</b>. A születési dátum megadása gyors és intuitív. Először az évet választjuk ki, majd a hónapot és a napot. Ha a keresett év nem szerepel az első oldalon, a fenti nyilakkal lehet lapozni az előző és következő évekre. Hiba esetén visszalépésre is van lehetőség. Ha kiszámoltunk egy dátumot, a kalkulátor egy gombnyomásra alaphelyzetbe is állítható.<br /><br />A <b>MIKOR SZÜLETETT?</b> módban a <b>gyerek születési dátuma</b> számolható ki a megadott korhoz képest.'},
     },
   },
   words: {
-    title: 'Szokereso',
+    title: 'Szókereső',
     search: {
-      title: 'Szokereso',
+      title: 'Szókereső',
       inputs: {
         start: 'Kezdet',
-        inner: 'Belso betuk',
-        end: 'Vegzodes'
+        inner: 'Belső betűk',
+        end: 'Végződés'
       },
       method: (m) => {
         switch (m) {
           case "irrelevant":
-            return 'nem szamit'
+            return 'nem számít'
           case "min":
             return 'minimum'
           case "max":
@@ -56,27 +56,27 @@ export const hu = {
     },
     collection: {
       title: 'Mentett szavak',
-      save: 'Szolista letoltese',
+      save: 'Szólista letöltése',
     },
     help: {
-      title: 'Szokereso',
-      content: {__html: 'Keress a tobb, mint <i>10.000</i> szavas <b>szogyujtemenyben</b> a megadott felteteleknek megfeleloen.<br /><br />Meghatarozhatod, hogy hogyan <b>kezdodjon</b> es <b>vegzodjon</b> a szo, megadhatod, hogy a szo belseje milyen <b>betuket tartalmazzon</b> (a sorrend tetszoleges lesz), valamint megkoteseket tehetsz a <b>szo hosszara</b> is.<br /><br />A keresesi eredmenybol a szavakat <b>elmentheted</b> az adott szora kattintva. A mentett szavak a bongeszod atmeneti tarolojaba kerulnek <i>(local storage)</i>, ahonnan le is tudod menteni azokat egy <b>txt fajl</b> formajaban.'}
+      title: 'Szókereső',
+      content: {__html: 'Keress a több, mint <i>10.000</i> szavas <b>szógyűjteményben</b> a megadott feltételeknek megfelelően.<br /><br />Meghatározhatod, hogy hogyan <b>kezdődjön</b> és hogyan <b>végződjön</b> a szó, megadhatod, hogy a szó belseje milyen <b>betűket tartalmazzon</b> (a sorrend tetszőleges lesz), valamint megkötéseket tehetsz a <b>szó hosszára</b> vonatkozóan is.<br /><br />A keresési eredményből a szavakat <b>elmentheted</b> az adott szóra kattintva. A mentett szavak a böngésződ átmeneti tárolójába kerülnek <i>(local storage)</i>, ahonnan le is tudod menteni azokat egy <b>txt fájl</b> formájában.'}
     },
   },
   dice:{
-    title: 'Dobokocka',
+    title: 'Dobókocka',
     regular: {
-      title: 'Hagyomanyos',
+      title: 'Hagyományos',
     },
     multi: {
-      title: 'Tetszoleges',
-      roll: 'Dobas',
-      lower: 'also hatar',
-      upper: 'felso hatar',
+      title: 'Tetszőleges',
+      roll: 'Dobás',
+      lower: 'alsó határ',
+      upper: 'felső határ',
     },
     help: {
-      title: 'Dobokocka',
-      content: {__html: 'Hagyomanyos <b>hatoldalu dobokocka</b> es <b>veletlenszam generator</b> tetszolegesen allithato also es felso hatarokkal.<br /><br />A hagyomanyos kockaval a kepernyore kattintva lehet dobni. Az eredmeny 1 es 6 kozott lesz.<br /><br />A veletlenszam generatorral egy also egy felso hatar kozott general az alkalmazas veletlenszeruen szamokat.'},
+      title: 'Dobókocka',
+      content: {__html: 'Hagyományos <b>hatoldalú dobókocka</b> és <b>véletlenszám generátor</b> tetszőlegesen állítható alsó és felső határokkal.<br /><br />A hagyományos kockával a képernyőre kattintva lehet dobni. Az eredmény 1 és 6 között lesz.<br /><br />A véletlenszám generátorral egy alsó és egy felső határ között generál az alkalmazás véletlenszerűen számokat.'},
     },
   }
 }
