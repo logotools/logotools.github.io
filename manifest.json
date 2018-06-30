@@ -3,13 +3,13 @@
   "name": "Logopediai segedeszkozok",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "favicon.png",
+      "sizes": "128x128 64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#c2185b",
   "background_color": "#ffffff"
 }
